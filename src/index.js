@@ -1,6 +1,7 @@
 import View from "./components/View.vue";
 import Gravatar from "./components/fields/Gravatar.vue";
 import KommentsPendingField from "./components/fields/KommentsPending.vue";
+import KommentsListEntriesField from "./components/fields/KommentsListEntries.vue";
 
 panel.plugin("mauricerenck/komments", {
     views: {
@@ -12,6 +13,7 @@ panel.plugin("mauricerenck/komments", {
     },
     fields: {
         gravatar: Gravatar,
-        kommentsPending: KommentsPendingField
+        kommentsPending: KommentsPendingField,
+        kommentsListEntries: KommentsListEntriesField
     }
 });

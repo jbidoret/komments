@@ -11,3 +11,6 @@ columns:
           kommentsPending:
             type: kommentsPending
             label: Pending Komments
+          kommentsListEntries:
+            type: kommentsListEntries
+            label: Liste

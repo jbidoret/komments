@@ -70,7 +70,8 @@ Kirby::plugin('mauricerenck/komments', [
             'props' => [
             ]
         ],
-        'kommentsPending' => []
+        'kommentsPending' => [],
+        'kommentsListEntries' => []
     ],
     'translations' => require_once(__DIR__ . '/config/translations.php'),
     'api' => require_once(__DIR__ . '/config/api.php'),

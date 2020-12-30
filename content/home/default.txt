@@ -20,8 +20,8 @@ Kommentsinbox:
   komment: ""
   quote: ""
   kommenttype: LIKE
-  published: 2019-06-18 00:00
-  status: 'true'
+  published: 2019-06-18 00:00:00
+  status: 'false'
   wmsource: >
     https://brid-gy.appspot.com/like/twitter/mauricehh/1140945527460290566/18647802
   wmtarget: >
@@ -39,8 +39,8 @@ Kommentsinbox:
   komment: ""
   quote: ""
   kommenttype: LIKE
-  published: 2019-06-18 00:00
-  status: 'true'
+  published: 2019-06-18 00:00:00
+  status: 'false'
   wmsource: >
     https://brid-gy.appspot.com/like/twitter/mauricehh/1140945527460290566/536793087
   wmtarget: >
@@ -58,8 +58,8 @@ Kommentsinbox:
   komment: ""
   quote: ""
   kommenttype: LIKE
-  published: 2019-06-18 00:00
-  status: 'true'
+  published: 2019-06-18 00:00:00
+  status: 'false'
   wmsource: >
     https://brid-gy.appspot.com/like/twitter/mauricehh/1140945527460290566/2329589923
   wmtarget: >
@@ -77,7 +77,7 @@ Kommentsinbox:
   komment: ""
   quote: ""
   kommenttype: LIKE
-  published: 2019-06-18 00:00
+  published: 2019-06-18 00:00:00
   status: 'true'
   wmsource: >
     https://brid-gy.appspot.com/like/twitter/mauricehh/1140945527460290566/68618782
@@ -101,7 +101,7 @@ Kommentsinbox:
     🙏
   quote: ""
   kommenttype: REPLY
-  published: 2019-06-18 00:00
+  published: 2019-06-18 00:00:00
   status: 'true'
   wmsource: >
     https://brid-gy.appspot.com/comment/twitter/mauricehh/1140945527460290566/1140979522298437634
@@ -120,7 +120,7 @@ Kommentsinbox:
   komment: ""
   quote: ""
   kommenttype: LIKE
-  published: 2019-06-18 00:00
+  published: 2019-06-18 00:00:00
   status: 'true'
   wmsource: >
     https://brid-gy.appspot.com/like/twitter/mauricehh/1140945527460290566/3297914751
@@ -139,7 +139,7 @@ Kommentsinbox:
   komment: Thanks for the beautiful illustrations!
   quote: ""
   kommenttype: REPLY
-  published: 2019-06-18 00:00
+  published: 2019-06-18 00:00:00
   status: 'true'
   wmsource: >
     https://brid-gy.appspot.com/comment/twitter/mauricehh/1140945527460290566/1140983436275879937
@@ -160,7 +160,7 @@ Kommentsinbox:
     alert("HI");
   quote: ""
   kommenttype: KOMMENT
-  published: 2020-09-03 15:45
+  published: 2020-09-03 15:45:00
   status: 'true'
   id: d46ceebb32712f44c8b2fc5e65537c66
   spamlevel: 0
@@ -176,7 +176,7 @@ Kommentsinbox:
   komment: Hallo welt
   quote: ""
   kommenttype: KOMMENT
-  published: 2020-11-12 11:55
+  published: 2020-11-12 11:55:00
   status: 'false'
   id: f247192310aaf3f56a29aa02ac2adfb1
   spamlevel: 0
@@ -192,9 +192,25 @@ Kommentsinbox:
   komment: sdfsdfsdfsdfsdfsdfsdf
   quote: ""
   kommenttype: KOMMENT
-  published: 2020-11-12 11:55
+  published: 2020-11-12 11:55:00
   status: 'false'
   id: edbec17042ca6639ac38998b487cbbf9
+  spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/8b77c0a84579af62f82da07d9abedf56
+  author: MauriceEmptyUrl
+  authorurl: ""
+  source: https://komments.test:8890
+  target: https://komments.test:8890
+  mentionof: https://komments.test:8890
+  property: KOMMENT
+  komment: dfgdfgdfgdfgdfg
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2020-11-12 12:00:00
+  status: 'false'
+  id: 6cb177f85ca044509d7d044ce2b64a18
   spamlevel: 0
 - 
   avatar: >
@@ -205,12 +221,12 @@ Kommentsinbox:
   target: https://komments.test:8890
   mentionof: https://komments.test:8890
   property: KOMMENT
-  komment: dfgdfgdfgdfgdfg
+  komment: Hier ist mein KOmmentar
   quote: ""
   kommenttype: KOMMENT
-  published: 2020-11-12 12:00
-  status: 'false'
-  id: 6cb177f85ca044509d7d044ce2b64a18
+  published: 2020-12-15 23:20:00
+  status: 'true'
+  id: 7d929a6e91787397329c7eccd52f88fc
   spamlevel: 0
 
 ----

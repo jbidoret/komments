@@ -31,12 +31,16 @@ return [
 
                             if (($komment['status'] === 'false' || $komment['status'] === false) && (integer)$komment['spamlevel'] === 0) {
                                 $pendingKomments[] = [
+                                    'id' => (isset($komment['kid']) && !empty($komment['kid'])) ? $komment['kid'] : md5($komment['author'] . $komment['published']),
                                     'author' => $komment['author'],
+                                    'authorurl' => $komment['authorurl'],
                                     'komment' => $komment['komment'],
                                     'kommentType' => (isset($komment['kommenttype'])) ? $komment['kommenttype'] : 'komment', // backward compatiblity
                                     'image' => $komment['avatar'],
                                     'title' => (string) $item->title(),
                                     'url' => $item->panelUrl(),
+                                    'spamlevel' => (isset($komment['spamlevel'])) ? $komment['spamlevel'] : 0,
+                                    'status' => $komment['status'],
                                 ];
                             }
                         }
